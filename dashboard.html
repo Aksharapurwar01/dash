@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!--Nav bar Starts-->
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3  ">
+                <a class="navbar-brand pl-5" href="C:\Users\Lenovo\Documents\codes\blog_website\index.html">
+                    <img src="jobaskit4.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="C:\Users\Lenovo\Documents\codes\blog_website\index.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="C:\Users\Lenovo\Documents\codes\blog_website\Form.html">Form</a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="C:\Users\Lenovo\Documents\codes\blog_website\Aboutus.html">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="C:\Users\Lenovo\Documents\codes\blog_website\Contactus.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="C:\Users\Lenovo\Documents\codes\blog_website\Product.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle profile-image" data-toggle="dropdown">
+                                <img src="http://placehold.it/30x30" class="img-circle special-img"> Test <b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><i class="fa fa-cog"></i> Account</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#"><i class="fa fa-sign-out"></i> Sign-out</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+            <div class="wrapper">
+
+                <!-- Sidebar -->
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <h3>JobBaskit</h3>
+                    </div>
+
+                    <ul class="list-unstyled components">
+
+                        <li>
+                            <a href="#">Home</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Student Profile</a>
+                        </li>
+                        <li>
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+                                class="dropdown-toggle">Connect with Hrs</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu">
+                                <li>
+                                    <a href="#">list</a>
+                                </li>
+                                <li>
+                                    <a href="#">job Opening</a>
+                                </li>
+                                <li>
+                                    <a href="#">Chat</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Notification</a>
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+            <div id="content">
+                <!-- We'll fill this with dummy content -->
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Toggle Sidebar</span>
+                </button>
+
+                <div class="card" style="width: 18rem; height: 400px; margin-left: 700px; margin-top: 40px;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+    </script>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
